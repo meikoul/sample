@@ -1,1 +1,14 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input {
+  height: auto !important;
+}
+
+.panel {
+  margin-top: 50px;
+}
